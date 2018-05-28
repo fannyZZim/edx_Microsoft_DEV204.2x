@@ -10,11 +10,6 @@ namespace edx_Microsoft_DEV204._2x
         }
     }
 }
-//Declaring a Class
-public class DrinksMachine
-{
-    // Methods, fields, properties, and events go here.
-}
 
 // Defining Class Members
 public class DrinksMachine
