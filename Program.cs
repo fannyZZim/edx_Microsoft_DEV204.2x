@@ -6,7 +6,11 @@ namespace edx_Microsoft_DEV204._2x
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DrinksMachine myMachine = new DrinksMachine();
+            myMachine._location = "Kitchen";
+            myMachine._model = "DM1000";
+
+            Console.WriteLine(myMachine._location);
         }
     }
 }
