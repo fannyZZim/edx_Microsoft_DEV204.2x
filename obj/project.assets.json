@@ -670,17 +670,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/patrickthesailorman/Dev/edx_Microsoft_DEV204.2x/edx_Microsoft_DEV204.2x.csproj",
+      "projectUniqueName": "/Users/patrickthesailorman/Projects/edx_Microsoft_DEV204.2x/edx_Microsoft_DEV204.2x.csproj",
       "projectName": "edx_Microsoft_DEV204.2x",
-      "projectPath": "/Users/patrickthesailorman/Dev/edx_Microsoft_DEV204.2x/edx_Microsoft_DEV204.2x.csproj",
+      "projectPath": "/Users/patrickthesailorman/Projects/edx_Microsoft_DEV204.2x/edx_Microsoft_DEV204.2x.csproj",
       "packagesPath": "/Users/patrickthesailorman/.nuget/packages/",
-      "outputPath": "/Users/patrickthesailorman/Dev/edx_Microsoft_DEV204.2x/obj/",
+      "outputPath": "/Users/patrickthesailorman/Projects/edx_Microsoft_DEV204.2x/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/patrickthesailorman/.nuget/NuGet/NuGet.Config"
+        "/Users/patrickthesailorman/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -703,8 +703,9 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
