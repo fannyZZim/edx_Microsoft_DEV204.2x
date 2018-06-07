@@ -6,62 +6,15 @@ namespace edx_Microsoft_DEV204._2x
     {
         static void Main(string[] args)
         {
-            DrinksMachine myMachine = new DrinksMachine();
-            myMachine._location = "Kitchen";
-            myMachine._model = "DM1000";
+            DrinksMachine myMachine = new DrinksMachine("Kitchen", "Brand", "DM1000");
+            // myMachine.Location = "Kitchen";
+            // myMachine.Model = "DM1000";
 
-            Console.WriteLine(myMachine._location);
+            Console.WriteLine(myMachine.Location);
+            Console.WriteLine(myMachine.Make);
+            Console.WriteLine(myMachine.Model);
+            myMachine.MakeCappuccino();
         }
     }
 }
 
-// Defining Class Members
-public class DrinksMachine
-{
-   // The following statements define a property with a private field.
-   private string _location;
-   public string Location
-   {
-      get
-      {
-         return _location;
-      }
-      set
-      {
-         if (value != null) 
-            _location = value;
-      }
-   }
-   // The following statements define properties.
-   public string Make {get; set;}
-   public string Model {get; set;}
-   // The following statements define methods.
-   public void MakeCappuccino()
-   {
-      // Method logic goes here.
-   }
-   public void MakeEspresso()
-   {
-      // Method logic goes here.
-   }
-   // The following statement defines an event. The delegate definition is not shown.
-   public event OutOfBeansHandler OutOfBeans;
-}
-
-public partial class DrinksMachine
-{
-
-   public void MakeCappuccino()
-   {
-      // Method logic goes here.
-   }
-}
-
-public partial class DrinksMachine
-{
-
-   public void MakeEspresso()
-   {
-      // Method logic goes here.
-   }
-}
