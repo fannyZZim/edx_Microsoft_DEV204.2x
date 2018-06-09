@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mod1_SA_Lab
+namespace Mod1_Lab3
 {
     // Declaring the UProgram() Class
     // This class has 1 property: Name
