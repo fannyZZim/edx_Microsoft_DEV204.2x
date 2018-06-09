@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace edx_Microsoft_DEV204._2x
 {
+  class DrinksMachine
+  {
     // Defining Class Members
-    public class DrinksMachine(string loc, string make, string model)
+    public DrinksMachine(string loc, string make, string model)
     {
       this.Location = loc;
-      this.Model = model;
       this.Make = make;
+      this.Model = model;
     }
     {
       // The following statements define a property with a private field.
@@ -67,4 +69,5 @@ namespace edx_Microsoft_DEV204._2x
           // Method logic goes here.
       }
     }
+  }
 }
