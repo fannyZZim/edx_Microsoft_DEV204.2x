@@ -9,7 +9,7 @@ namespace Mod1_Lab1
             // Instantiating an Object of Car() Class by using Type Inference called Carl
             var Carl = new Car();
 
-            // Using dot notation to call members on Carl
+            // Using dot notation to call members on Carl /Users/patrickthesailorman/Dev/edx_Microsoft_DEV204.2x/Mod1_Lab1/Mod1_Lab1/Program.cs
             Carl.Color = "White";
             Carl.Year = 2010;
             Carl.Mileage = 11000;
